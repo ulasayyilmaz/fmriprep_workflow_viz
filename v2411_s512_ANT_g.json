@@ -1,0 +1,2466 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "000_bidssrc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "001_about",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "002_res_tmpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "003_full_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "004_lap_tmpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "005_val_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "006_get_dummy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "007_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "008_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "009_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "010_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "011_bold_source",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "012_distortion_params",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "013_out_merge_fmap_id",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "014_out_merge_method",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "015_unzip",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "016_split_desc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "017_spacesource",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "018_spacesource",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc"
+        ],
+        "name": "019_bids_info",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc"
+        ],
+        "name": "020_anat_ref_dimensions",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc",
+            "001_about"
+        ],
+        "name": "021_ds_report_about",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "004_lap_tmpl"
+        ],
+        "name": "022_mrg_tmpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "005_val_bold"
+        ],
+        "name": "023_ds_report_validation",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "005_val_bold",
+            "006_get_dummy"
+        ],
+        "name": "024_gen_avg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "006_get_dummy"
+        ],
+        "name": "025_calc_dummy_scans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "011_bold_source"
+        ],
+        "name": "026_validate_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "015_unzip"
+        ],
+        "name": "027_check_register",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "016_split_desc"
+        ],
+        "name": "028_tf_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "016_split_desc"
+        ],
+        "name": "029_fmt_cohort",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "017_spacesource"
+        ],
+        "name": "030_gen_tplid",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "017_spacesource"
+        ],
+        "name": "031_select_tpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "018_spacesource"
+        ],
+        "name": "032_gen_tplid",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "018_spacesource"
+        ],
+        "name": "033_select_tpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc",
+            "019_bids_info"
+        ],
+        "name": "034_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "020_anat_ref_dimensions"
+        ],
+        "name": "035_denoise",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "020_anat_ref_dimensions"
+        ],
+        "name": "036_raw_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "020_anat_ref_dimensions"
+        ],
+        "name": "037_t1w_conform_check",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_gen_avg"
+        ],
+        "name": "038_fmapref_buffer",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "007_sources",
+            "024_gen_avg"
+        ],
+        "name": "039_ds_boldref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_gen_avg",
+            "005_val_bold"
+        ],
+        "name": "040_mcflirt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_validate_bold",
+            "025_calc_dummy_scans"
+        ],
+        "name": "041_slice_timing_correction",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "027_check_register"
+        ],
+        "name": "042_fmapmrg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "027_check_register"
+        ],
+        "name": "043_magmrg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc",
+            "034_summary"
+        ],
+        "name": "044_ds_report_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "020_anat_ref_dimensions",
+            "035_denoise"
+        ],
+        "name": "045_anat_conform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "037_t1w_conform_check",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "046_ds_t1w_conform_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "038_fmapref_buffer"
+        ],
+        "name": "047_init_aff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "039_ds_boldref"
+        ],
+        "name": "048_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "040_mcflirt",
+            "024_gen_avg"
+        ],
+        "name": "049_fsl2itk",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "040_mcflirt"
+        ],
+        "name": "050_normalize_motion",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "040_mcflirt"
+        ],
+        "name": "051_add_rmsd_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "041_slice_timing_correction",
+            "026_validate_bold"
+        ],
+        "name": "052_copy_xform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "042_fmapmrg"
+        ],
+        "name": "053_units",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "043_magmrg"
+        ],
+        "name": "054_clipper_pre",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "045_anat_conform"
+        ],
+        "name": "055_get1st",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "047_init_aff",
+            "038_fmapref_buffer"
+        ],
+        "name": "056_norm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "008_sources",
+            "049_fsl2itk"
+        ],
+        "name": "057_ds_xforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "050_normalize_motion"
+        ],
+        "name": "058_fdisp",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "050_normalize_motion"
+        ],
+        "name": "059_add_motion_headers",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "052_copy_xform"
+        ],
+        "name": "060_distortion_params",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "052_copy_xform"
+        ],
+        "name": "061_distortion_params",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "054_clipper_pre"
+        ],
+        "name": "062_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "055_get1st"
+        ],
+        "name": "063_anat_validate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "056_norm",
+            "038_fmapref_buffer"
+        ],
+        "name": "064_map_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "062_n4"
+        ],
+        "name": "065_clipper_post",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "063_anat_validate"
+        ],
+        "name": "066_truncate_images",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "064_map_brainmask",
+            "038_fmapref_buffer"
+        ],
+        "name": "067_fix_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "065_clipper_post"
+        ],
+        "name": "068_masker",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "065_clipper_post"
+        ],
+        "name": "069_out_merge_fmap_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "065_clipper_post"
+        ],
+        "name": "070_ds_reference",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "066_truncate_images"
+        ],
+        "name": "071_inu_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "067_fix_header",
+            "038_fmapref_buffer"
+        ],
+        "name": "072_n4_correct",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "053_units",
+            "068_masker"
+        ],
+        "name": "073_bs_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "068_masker"
+        ],
+        "name": "074_out_merge_fmap_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "071_inu_n4"
+        ],
+        "name": "075_res_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "071_inu_n4"
+        ],
+        "name": "076_lap_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "072_n4_correct"
+        ],
+        "name": "077_skullstrip_first_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "072_n4_correct"
+        ],
+        "name": "078_rotime",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "073_bs_filter"
+        ],
+        "name": "079_out_merge_fmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "073_bs_filter"
+        ],
+        "name": "080_out_merge_fmap_coeff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "073_bs_filter"
+        ],
+        "name": "081_merge_fmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "073_bs_filter"
+        ],
+        "name": "082_gen_desc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "073_bs_filter",
+            "065_clipper_post",
+            "068_masker"
+        ],
+        "name": "083_fmap_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "075_res_target",
+            "002_res_tmpl"
+        ],
+        "name": "084_init_aff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "071_inu_n4",
+            "076_lap_target"
+        ],
+        "name": "085_mrg_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "077_skullstrip_first_pass"
+        ],
+        "name": "086_first_dilate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "069_out_merge_fmap_ref",
+            "080_out_merge_fmap_coeff",
+            "074_out_merge_fmap_mask",
+            "014_out_merge_method",
+            "013_out_merge_fmap_id"
+        ],
+        "name": "087_fmap_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "069_out_merge_fmap_ref",
+            "080_out_merge_fmap_coeff",
+            "013_out_merge_fmap_id"
+        ],
+        "name": "088_fmap_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "069_out_merge_fmap_ref",
+            "080_out_merge_fmap_coeff",
+            "013_out_merge_fmap_id"
+        ],
+        "name": "089_fmap_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "069_out_merge_fmap_ref",
+            "080_out_merge_fmap_coeff",
+            "013_out_merge_fmap_id"
+        ],
+        "name": "090_fmap_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "082_gen_desc",
+            "073_bs_filter"
+        ],
+        "name": "091_ds_coeff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "083_fmap_rpt"
+        ],
+        "name": "092_ds_fmap_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "084_init_aff",
+            "022_mrg_tmpl",
+            "085_mrg_target"
+        ],
+        "name": "093_norm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "077_skullstrip_first_pass",
+            "086_first_dilate"
+        ],
+        "name": "094_first_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "081_merge_fmap",
+            "070_ds_reference",
+            "091_ds_coeff"
+        ],
+        "name": "095_ds_fieldmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "093_norm",
+            "063_anat_validate"
+        ],
+        "name": "096_map_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "093_norm",
+            "003_full_wm",
+            "063_anat_validate"
+        ],
+        "name": "097_map_wmmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "094_first_mask"
+        ],
+        "name": "098_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "096_map_brainmask"
+        ],
+        "name": "099_thr_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "097_map_wmmask",
+            "063_anat_validate"
+        ],
+        "name": "100_inu_n4_final",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "098_unifize",
+            "038_fmapref_buffer"
+        ],
+        "name": "101_fixhdr_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "099_thr_brainmask"
+        ],
+        "name": "102_dil_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "099_thr_brainmask"
+        ],
+        "name": "103_03_pad_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "100_inu_n4_final",
+            "099_thr_brainmask"
+        ],
+        "name": "104_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "101_fixhdr_unifize"
+        ],
+        "name": "105_skullstrip_second_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "102_dil_brainmask"
+        ],
+        "name": "106_get_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "105_skullstrip_second_pass",
+            "038_fmapref_buffer"
+        ],
+        "name": "107_fixhdr_skullstrip2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "106_get_brainmask",
+            "100_inu_n4_final"
+        ],
+        "name": "108_01_atropos",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "107_fixhdr_skullstrip2",
+            "077_skullstrip_first_pass"
+        ],
+        "name": "109_combine_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "108_01_atropos"
+        ],
+        "name": "110_02_pad_segm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "108_01_atropos",
+            "097_map_wmmask"
+        ],
+        "name": "111_match_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "101_fixhdr_unifize",
+            "109_combine_masks"
+        ],
+        "name": "112_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "072_n4_correct",
+            "087_fmap_select",
+            "109_combine_masks"
+        ],
+        "name": "113_coregister",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "110_02_pad_segm"
+        ],
+        "name": "114_04_sel_labels",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "108_01_atropos",
+            "111_match_wm"
+        ],
+        "name": "115_overlap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "113_coregister"
+        ],
+        "name": "116_itk_mat2txt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "114_04_sel_labels"
+        ],
+        "name": "117_05_get_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "114_04_sel_labels"
+        ],
+        "name": "118_06_get_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "114_04_sel_labels"
+        ],
+        "name": "119_10_me_csf",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "114_04_sel_labels"
+        ],
+        "name": "120_27_depad_csf",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "108_01_atropos",
+            "115_overlap"
+        ],
+        "name": "121_sel_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "010_sources",
+            "116_itk_mat2txt"
+        ],
+        "name": "122_ds_xform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "117_05_get_wm"
+        ],
+        "name": "123_09_relabel_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "118_06_get_gm"
+        ],
+        "name": "124_07_fill_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "121_sel_wm",
+            "063_anat_validate"
+        ],
+        "name": "125_copy_xform_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "078_rotime",
+            "072_n4_correct",
+            "087_fmap_select",
+            "122_ds_xform"
+        ],
+        "name": "126_resample",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "123_09_relabel_wm"
+        ],
+        "name": "127_26_depad_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "118_06_get_gm",
+            "124_07_fill_gm"
+        ],
+        "name": "128_08_mult_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "125_copy_xform_wm",
+            "099_thr_brainmask",
+            "097_map_wmmask"
+        ],
+        "name": "129_apply_wm_prior",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "126_resample"
+        ],
+        "name": "130_merge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "128_08_mult_gm",
+            "119_10_me_csf"
+        ],
+        "name": "131_11_add_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "129_apply_wm_prior",
+            "063_anat_validate"
+        ],
+        "name": "132_inu_n4_final",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "130_merge"
+        ],
+        "name": "133_average",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "048_sources",
+            "039_ds_boldref",
+            "130_merge"
+        ],
+        "name": "134_ds_boldref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "131_11_add_gm"
+        ],
+        "name": "135_12_relabel_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "133_average"
+        ],
+        "name": "136_clipper_pre",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "134_ds_boldref"
+        ],
+        "name": "137_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "134_ds_boldref",
+            "087_fmap_select",
+            "122_ds_xform"
+        ],
+        "name": "138_fmapref_boldref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "088_fmap_select",
+            "134_ds_boldref",
+            "122_ds_xform"
+        ],
+        "name": "139_boldref_fmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "031_select_tpl",
+            "017_spacesource",
+            "134_ds_boldref"
+        ],
+        "name": "140_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "123_09_relabel_wm",
+            "135_12_relabel_gm"
+        ],
+        "name": "141_13_add_gm_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "135_12_relabel_gm"
+        ],
+        "name": "142_25_depad_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "136_clipper_pre"
+        ],
+        "name": "143_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_boldref_fmap",
+            "134_ds_boldref",
+            "057_ds_xforms",
+            "052_copy_xform",
+            "012_distortion_params"
+        ],
+        "name": "144_boldref_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "141_13_add_gm_wm"
+        ],
+        "name": "145_14_sel_labels2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "141_13_add_gm_wm"
+        ],
+        "name": "146_24_depad_segm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "127_26_depad_wm",
+            "142_25_depad_gm",
+            "120_27_depad_csf"
+        ],
+        "name": "147_merge_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "143_n4"
+        ],
+        "name": "148_clipper_post",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "145_14_sel_labels2"
+        ],
+        "name": "149_15_add_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "148_clipper_post"
+        ],
+        "name": "150_masker",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "149_15_add_7"
+        ],
+        "name": "151_16_me_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "009_sources",
+            "150_masker"
+        ],
+        "name": "152_ds_boldmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "151_16_me_7"
+        ],
+        "name": "153_17_comp_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "138_fmapref_boldref",
+            "038_fmapref_buffer",
+            "126_resample",
+            "152_ds_boldmask"
+        ],
+        "name": "154_sdecreg_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "144_boldref_bold",
+            "152_ds_boldmask"
+        ],
+        "name": "155_dvars",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "144_boldref_bold",
+            "152_ds_boldmask",
+            "025_calc_dummy_scans"
+        ],
+        "name": "156_tcompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "153_17_comp_7"
+        ],
+        "name": "157_18_md_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "154_sdecreg_report"
+        ],
+        "name": "158_ds_sdcreg_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "155_dvars"
+        ],
+        "name": "159_add_dvars_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "155_dvars"
+        ],
+        "name": "160_add_std_dvars_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "156_tcompcor"
+        ],
+        "name": "161_tcc_metadata_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "157_18_md_7"
+        ],
+        "name": "162_19_fill_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "161_tcc_metadata_filter"
+        ],
+        "name": "163_tcc_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "103_03_pad_mask",
+            "162_19_fill_7"
+        ],
+        "name": "164_20_add_7_2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "164_20_add_7_2"
+        ],
+        "name": "165_21_md_7_2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "165_21_md_7_2"
+        ],
+        "name": "166_22_me_7_2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "166_22_me_7_2"
+        ],
+        "name": "167_23_depad_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "167_23_depad_mask",
+            "063_anat_validate"
+        ],
+        "name": "168_msk_conform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "132_inu_n4_final",
+            "168_msk_conform",
+            "146_24_depad_segm",
+            "147_merge_tpms",
+            "063_anat_validate"
+        ],
+        "name": "169_copy_xform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "169_copy_xform"
+        ],
+        "name": "170_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "169_copy_xform",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "171_ds_anat_preproc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "036_raw_sources",
+            "020_anat_ref_dimensions",
+            "169_copy_xform"
+        ],
+        "name": "172_ds_anat_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "169_copy_xform"
+        ],
+        "name": "173_trunc_mov",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "170_apply_mask"
+        ],
+        "name": "174_fast",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "031_select_tpl",
+            "017_spacesource",
+            "171_ds_anat_preproc"
+        ],
+        "name": "175_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "171_ds_anat_preproc",
+            "172_ds_anat_mask"
+        ],
+        "name": "176_mask_anat",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "171_ds_anat_preproc",
+            "172_ds_anat_mask"
+        ],
+        "name": "177_mask_t1w_brain",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "134_ds_boldref",
+            "171_ds_anat_preproc",
+            "172_ds_anat_mask"
+        ],
+        "name": "178_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "016_split_desc",
+            "173_trunc_mov",
+            "169_copy_xform",
+            "000_bidssrc"
+        ],
+        "name": "179_registration",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "174_fast"
+        ],
+        "name": "180_lut_t1w_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "174_fast"
+        ],
+        "name": "181_fast2bids",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "177_mask_t1w_brain",
+            "134_ds_boldref"
+        ],
+        "name": "182_mri_coreg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "029_fmt_cohort",
+            "179_registration"
+        ],
+        "name": "183_outputnode",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_lut_t1w_dseg",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "184_ds_anat_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "181_fast2bids",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "185_ds_anat_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "182_mri_coreg"
+        ],
+        "name": "186_lta_to_fsl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "183_outputnode"
+        ],
+        "name": "187_template_buffer",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "183_outputnode",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "188_ds_anat2std_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "183_outputnode",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "189_ds_std2anat_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "171_ds_anat_preproc",
+            "172_ds_anat_mask",
+            "184_ds_anat_dseg"
+        ],
+        "name": "190_seg_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "184_ds_anat_dseg"
+        ],
+        "name": "191_wm_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "184_ds_anat_dseg"
+        ],
+        "name": "192_t1w_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "144_boldref_bold",
+            "185_ds_anat_tpms"
+        ],
+        "name": "193_acc_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "188_ds_anat2std_xfm"
+        ],
+        "name": "194_anat2std_buffer",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "189_ds_std2anat_xfm"
+        ],
+        "name": "195_std2anat_buffer",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "190_seg_rpt",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "196_ds_t1w_dseg_mask_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "177_mask_t1w_brain",
+            "186_lta_to_fsl",
+            "191_wm_mask",
+            "134_ds_boldref"
+        ],
+        "name": "197_flt_bbr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "030_gen_tplid",
+            "194_anat2std_buffer",
+            "187_template_buffer"
+        ],
+        "name": "198_select_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "032_gen_tplid",
+            "194_anat2std_buffer",
+            "187_template_buffer"
+        ],
+        "name": "199_select_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "195_std2anat_buffer",
+            "187_template_buffer"
+        ],
+        "name": "200_select_MNI2009c_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "186_lta_to_fsl",
+            "197_flt_bbr"
+        ],
+        "name": "201_transforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_select_xfm",
+            "175_gen_ref",
+            "172_ds_anat_mask"
+        ],
+        "name": "202_anat2std_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_select_xfm",
+            "175_gen_ref",
+            "184_ds_anat_dseg"
+        ],
+        "name": "203_anat2std_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_select_xfm",
+            "175_gen_ref",
+            "185_ds_anat_tpms"
+        ],
+        "name": "204_anat2std_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_select_xfm",
+            "175_gen_ref",
+            "176_mask_anat"
+        ],
+        "name": "205_anat2std_t1w",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "033_select_tpl",
+            "199_select_xfm",
+            "171_ds_anat_preproc"
+        ],
+        "name": "206_t1w_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "033_select_tpl",
+            "199_select_xfm",
+            "172_ds_anat_mask"
+        ],
+        "name": "207_mask_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "177_mask_t1w_brain",
+            "201_transforms",
+            "134_ds_boldref"
+        ],
+        "name": "208_fsl_to_lta",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "017_spacesource",
+            "202_anat2std_mask",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "209_ds_std_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "203_anat2std_dseg",
+            "017_spacesource",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "210_ds_std_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "204_anat2std_tpms",
+            "017_spacesource",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "211_ds_std_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "017_spacesource",
+            "205_anat2std_t1w",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "212_ds_std_t1w",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "207_mask_std",
+            "033_select_tpl",
+            "206_t1w_std"
+        ],
+        "name": "213_norm_msk",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "208_fsl_to_lta"
+        ],
+        "name": "214_compare_transforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "213_norm_msk",
+            "018_spacesource"
+        ],
+        "name": "215_norm_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "201_transforms",
+            "214_compare_transforms"
+        ],
+        "name": "216_select_transform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "087_fmap_select",
+            "006_get_dummy",
+            "214_compare_transforms"
+        ],
+        "name": "217_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "215_norm_rpt",
+            "018_spacesource",
+            "020_anat_ref_dimensions"
+        ],
+        "name": "218_ds_std_t1w_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "216_select_transform"
+        ],
+        "name": "219_invt_bbr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "177_mask_t1w_brain",
+            "216_select_transform",
+            "134_ds_boldref"
+        ],
+        "name": "220_fsl2itk_fwd",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "217_summary"
+        ],
+        "name": "221_ds_report_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "177_mask_t1w_brain",
+            "219_invt_bbr",
+            "134_ds_boldref"
+        ],
+        "name": "222_fsl2itk_inv",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "137_sources",
+            "134_ds_boldref",
+            "220_fsl2itk_fwd"
+        ],
+        "name": "223_ds_xform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "171_ds_anat_preproc",
+            "134_ds_boldref",
+            "223_ds_xform"
+        ],
+        "name": "224_t1w_boldref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "192_t1w_wm",
+            "134_ds_boldref",
+            "223_ds_xform"
+        ],
+        "name": "225_boldref_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "223_ds_xform"
+        ],
+        "name": "226_boldref2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "152_ds_boldmask",
+            "172_ds_anat_mask",
+            "223_ds_xform"
+        ],
+        "name": "227_t1w_mask_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "193_acc_masks",
+            "152_ds_boldmask",
+            "223_ds_xform"
+        ],
+        "name": "228_acc_msk_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "223_ds_xform",
+            "200_select_MNI2009c_xfm"
+        ],
+        "name": "229_mrg_xfms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_select_xfm",
+            "223_ds_xform"
+        ],
+        "name": "230_boldref2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_select_xfm",
+            "223_ds_xform"
+        ],
+        "name": "231_boldref2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "031_select_tpl",
+            "198_select_xfm",
+            "057_ds_xforms",
+            "122_ds_xform",
+            "223_ds_xform"
+        ],
+        "name": "232_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "225_boldref_wm",
+            "134_ds_boldref",
+            "038_fmapref_buffer"
+        ],
+        "name": "233_sdc_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "224_t1w_boldref",
+            "225_boldref_wm",
+            "134_ds_boldref"
+        ],
+        "name": "234_epi_t1_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "226_boldref2target",
+            "057_ds_xforms"
+        ],
+        "name": "235_bold2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "226_boldref2target",
+            "122_ds_xform"
+        ],
+        "name": "236_fmap2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "226_boldref2target"
+        ],
+        "name": "237_inverses",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "227_t1w_mask_tfm",
+            "152_ds_boldmask"
+        ],
+        "name": "238_union_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "228_acc_msk_tfm",
+            "152_ds_boldmask"
+        ],
+        "name": "239_acc_msk_brain",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "229_mrg_xfms",
+            "152_ds_boldmask"
+        ],
+        "name": "240_resample_parc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "230_boldref2target",
+            "057_ds_xforms"
+        ],
+        "name": "241_bold2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "230_boldref2target",
+            "122_ds_xform"
+        ],
+        "name": "242_fmap2target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "230_boldref2target"
+        ],
+        "name": "243_inverses",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "140_gen_ref",
+            "231_boldref2target",
+            "134_ds_boldref"
+        ],
+        "name": "244_resample_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "140_gen_ref",
+            "231_boldref2target",
+            "152_ds_boldmask"
+        ],
+        "name": "245_resample_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "233_sdc_report"
+        ],
+        "name": "246_ds_sdc_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "234_epi_t1_report"
+        ],
+        "name": "247_ds_epi_t1_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "178_gen_ref",
+            "089_fmap_select",
+            "236_fmap2target",
+            "237_inverses"
+        ],
+        "name": "248_fmap_recon",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "238_union_mask"
+        ],
+        "name": "249_dilated_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "239_acc_msk_brain"
+        ],
+        "name": "250_acc_msk_bin",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "242_fmap2target",
+            "140_gen_ref",
+            "243_inverses",
+            "090_fmap_select"
+        ],
+        "name": "251_fmap_recon",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "232_sources",
+            "244_resample_ref",
+            "017_spacesource"
+        ],
+        "name": "252_ds_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "232_sources",
+            "017_spacesource",
+            "245_resample_mask"
+        ],
+        "name": "253_ds_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "178_gen_ref",
+            "235_bold2target",
+            "060_distortion_params",
+            "248_fmap_recon",
+            "052_copy_xform"
+        ],
+        "name": "254_resample",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "238_union_mask",
+            "249_dilated_mask"
+        ],
+        "name": "255_subtract_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "250_acc_msk_bin",
+            "144_boldref_bold",
+            "025_calc_dummy_scans"
+        ],
+        "name": "256_acompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "250_acc_msk_bin",
+            "156_tcompcor",
+            "152_ds_boldmask"
+        ],
+        "name": "257_merge_rois",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "140_gen_ref",
+            "241_bold2target",
+            "251_fmap_recon",
+            "061_distortion_params",
+            "052_copy_xform"
+        ],
+        "name": "258_resample",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "255_subtract_mask",
+            "144_boldref_bold",
+            "025_calc_dummy_scans"
+        ],
+        "name": "259_crowncompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "255_subtract_mask",
+            "250_acc_msk_bin",
+            "156_tcompcor"
+        ],
+        "name": "260_mrg_compcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "240_resample_parc",
+            "255_subtract_mask",
+            "250_acc_msk_bin"
+        ],
+        "name": "261_parcels",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "256_acompcor"
+        ],
+        "name": "262_rename_acompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "257_merge_rois",
+            "144_boldref_bold"
+        ],
+        "name": "263_signals",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "232_sources",
+            "258_resample",
+            "017_spacesource"
+        ],
+        "name": "264_ds_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "259_crowncompcor"
+        ],
+        "name": "265_crowncc_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "256_acompcor",
+            "259_crowncompcor",
+            "156_tcompcor"
+        ],
+        "name": "266_merge_compcor_metadata",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "260_mrg_compcor",
+            "144_boldref_bold",
+            "152_ds_boldmask"
+        ],
+        "name": "267_rois_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "262_rename_acompcor"
+        ],
+        "name": "268_acc_metadata_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "058_fdisp",
+            "262_rename_acompcor",
+            "259_crowncompcor",
+            "156_tcompcor",
+            "263_signals",
+            "059_add_motion_headers",
+            "051_add_rmsd_header",
+            "159_add_dvars_header",
+            "160_add_std_dvars_header"
+        ],
+        "name": "269_concat",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "266_merge_compcor_metadata"
+        ],
+        "name": "270_compcor_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "267_rois_plot"
+        ],
+        "name": "271_ds_report_bold_rois",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "268_acc_metadata_filter"
+        ],
+        "name": "272_acc_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "269_concat"
+        ],
+        "name": "273_model_expansion",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "269_concat",
+            "025_calc_dummy_scans"
+        ],
+        "name": "274_conf_corr_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "270_compcor_plot"
+        ],
+        "name": "275_ds_report_compcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "163_tcc_metadata_fmt",
+            "272_acc_metadata_fmt",
+            "265_crowncc_metadata_fmt"
+        ],
+        "name": "276_merge_confound_metadata",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "273_model_expansion"
+        ],
+        "name": "277_spike_regressors",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "274_conf_corr_plot"
+        ],
+        "name": "278_ds_report_conf_corr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "276_merge_confound_metadata"
+        ],
+        "name": "279_merge_confound_metadata2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "261_parcels",
+            "144_boldref_bold",
+            "277_spike_regressors",
+            "025_calc_dummy_scans"
+        ],
+        "name": "280_conf_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "277_spike_regressors",
+            "279_merge_confound_metadata2"
+        ],
+        "name": "281_ds_confounds",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "280_conf_plot"
+        ],
+        "name": "282_ds_report_bold_conf",
+        "size": 1
+    }
+]

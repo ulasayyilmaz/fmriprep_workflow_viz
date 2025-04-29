@@ -1,0 +1,14 @@
+digraph structs {
+node [shape=record];
+start015_unzip [label="{IN}|{ 015_unzip | utility |  }|{OUT|<out015unzip> 015_unzip}"];
+start027_check_register [label="{IN|<in027checkregister4> 027_check_register4}|{ 027_check_register | utility |  }|{OUT|<out027checkregister> 027_check_register}"];
+start043_magmrg [label="{IN|<in043magmrg3> 043_magmrg3}|{ 043_magmrg | utility |  }|{OUT|<out043magmrg> 043_magmrg}"];
+start054_clipper_pre [label="{IN|<in054clipperpre2> 054_clipper_pre2}|{ 054_clipper_pre | utility |  }|{OUT|<out054clipperpre> 054_clipper_pre}"];
+start062_n4 [label="{IN|<in062n41> 062_n41}|{ 062_n4 | utility |  }|{OUT|<out062n4> 062_n4}"];
+start065_clipper_post [label="{IN|<in065clipperpost0> 065_clipper_post0}|{ 065_clipper_post | utility |  }|{OUT}"];
+start015_unzip:out015unzip:e -> start027_check_register:in027checkregister4:w;
+start027_check_register:out027checkregister:e -> start043_magmrg:in043magmrg3:w;
+start043_magmrg:out043magmrg:e -> start054_clipper_pre:in054clipperpre2:w;
+start054_clipper_pre:out054clipperpre:e -> start062_n4:in062n41:w;
+start062_n4:out062n4:e -> start065_clipper_post:in065clipperpost0:w;
+}

@@ -1,0 +1,3234 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "000_bidssrc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "001_about",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "002_res_tmpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "003_full_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "004_lap_tmpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "005_raw_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "006_val_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "007_get_dummy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "008_val_sbref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "009_out_merge_fmap_id",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "010_out_merge_method",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "011_fmapmrg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "012_magmrg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "013_fmapmrg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "014_magmrg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "015_split_desc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "016_tf_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "017_split_desc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "018_tf_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "019_select_tpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "020_split_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "021_select_tpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "022_split_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "023_spacesource",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "024_spacesource",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc"
+        ],
+        "name": "025_bids_info",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc"
+        ],
+        "name": "026_anat_ref_dimensions",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc",
+            "001_about"
+        ],
+        "name": "027_ds_report_about",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "004_lap_tmpl"
+        ],
+        "name": "028_mrg_tmpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "006_val_bold"
+        ],
+        "name": "029_select_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "006_val_bold"
+        ],
+        "name": "030_ds_report_validation",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "007_get_dummy"
+        ],
+        "name": "031_calc_dummy_scans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "008_val_sbref"
+        ],
+        "name": "032_merge_sbrefs",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "011_fmapmrg"
+        ],
+        "name": "033_units",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "012_magmrg"
+        ],
+        "name": "034_clipper_pre",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "013_fmapmrg"
+        ],
+        "name": "035_units",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "014_magmrg"
+        ],
+        "name": "036_clipper_pre",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "015_split_desc"
+        ],
+        "name": "037_tf_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "017_split_desc"
+        ],
+        "name": "038_tf_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource"
+        ],
+        "name": "039_gen_tplid",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource"
+        ],
+        "name": "040_select_tpl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "000_bidssrc",
+            "025_bids_info"
+        ],
+        "name": "041_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions"
+        ],
+        "name": "042_anat_conform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions"
+        ],
+        "name": "043_t1w_conform_check",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions"
+        ],
+        "name": "044_raw_sources",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "029_select_bold",
+            "031_calc_dummy_scans"
+        ],
+        "name": "045_slice_timing_correction",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "032_merge_sbrefs"
+        ],
+        "name": "046_gen_avg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "034_clipper_pre"
+        ],
+        "name": "047_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "036_clipper_pre"
+        ],
+        "name": "048_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "041_summary",
+            "000_bidssrc"
+        ],
+        "name": "049_ds_report_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "042_anat_conform"
+        ],
+        "name": "050_get1st",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "043_t1w_conform_check",
+            "000_bidssrc"
+        ],
+        "name": "051_ds_t1w_conform_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "045_slice_timing_correction",
+            "029_select_bold"
+        ],
+        "name": "052_copy_xform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "046_gen_avg"
+        ],
+        "name": "053_init_aff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "046_gen_avg",
+            "006_val_bold"
+        ],
+        "name": "054_mcflirt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "047_n4"
+        ],
+        "name": "055_clipper_post",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "048_n4"
+        ],
+        "name": "056_clipper_post",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "050_get1st"
+        ],
+        "name": "057_anat_validate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "052_copy_xform"
+        ],
+        "name": "058_bold_split",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "053_init_aff",
+            "046_gen_avg"
+        ],
+        "name": "059_norm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "054_mcflirt",
+            "046_gen_avg"
+        ],
+        "name": "060_fsl2itk",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "054_mcflirt"
+        ],
+        "name": "061_normalize_motion",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "054_mcflirt"
+        ],
+        "name": "062_add_rmsd_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "055_clipper_post"
+        ],
+        "name": "063_masker",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "055_clipper_post"
+        ],
+        "name": "064_ds_reference",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "056_clipper_post"
+        ],
+        "name": "065_masker",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "055_clipper_post",
+            "056_clipper_post"
+        ],
+        "name": "066_out_merge_fmap_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "056_clipper_post"
+        ],
+        "name": "067_ds_reference",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "057_anat_validate"
+        ],
+        "name": "068_truncate_images",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "058_bold_split"
+        ],
+        "name": "069_rotime",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "019_select_tpl",
+            "020_split_target",
+            "058_bold_split"
+        ],
+        "name": "070_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "021_select_tpl",
+            "022_split_target",
+            "058_bold_split"
+        ],
+        "name": "071_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "059_norm",
+            "046_gen_avg"
+        ],
+        "name": "072_map_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "060_fsl2itk"
+        ],
+        "name": "073_ds_bold_hmc_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "061_normalize_motion"
+        ],
+        "name": "074_fdisp",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "061_normalize_motion"
+        ],
+        "name": "075_add_motion_headers",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "033_units",
+            "063_masker"
+        ],
+        "name": "076_bs_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "035_units",
+            "065_masker"
+        ],
+        "name": "077_bs_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "063_masker",
+            "065_masker"
+        ],
+        "name": "078_out_merge_fmap_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "068_truncate_images"
+        ],
+        "name": "079_inu_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "072_map_brainmask",
+            "046_gen_avg"
+        ],
+        "name": "080_check_hdr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "076_bs_filter"
+        ],
+        "name": "081_merge_fmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "076_bs_filter"
+        ],
+        "name": "082_gen_desc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "076_bs_filter",
+            "055_clipper_post",
+            "063_masker"
+        ],
+        "name": "083_fmap_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "076_bs_filter",
+            "077_bs_filter"
+        ],
+        "name": "084_out_merge_fmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "076_bs_filter",
+            "077_bs_filter"
+        ],
+        "name": "085_out_merge_fmap_coeff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "077_bs_filter"
+        ],
+        "name": "086_merge_fmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "077_bs_filter"
+        ],
+        "name": "087_gen_desc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "077_bs_filter",
+            "056_clipper_post",
+            "065_masker"
+        ],
+        "name": "088_fmap_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "079_inu_n4"
+        ],
+        "name": "089_res_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "079_inu_n4"
+        ],
+        "name": "090_lap_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "080_check_hdr",
+            "046_gen_avg"
+        ],
+        "name": "091_n4_correct",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "082_gen_desc",
+            "076_bs_filter"
+        ],
+        "name": "092_ds_coeff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "083_fmap_rpt"
+        ],
+        "name": "093_ds_fmap_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "084_out_merge_fmap",
+            "066_out_merge_fmap_ref",
+            "085_out_merge_fmap_coeff",
+            "078_out_merge_fmap_mask",
+            "010_out_merge_method",
+            "009_out_merge_fmap_id"
+        ],
+        "name": "094_output_select",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "087_gen_desc",
+            "077_bs_filter"
+        ],
+        "name": "095_ds_coeff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "088_fmap_rpt"
+        ],
+        "name": "096_ds_fmap_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "089_res_target",
+            "002_res_tmpl"
+        ],
+        "name": "097_init_aff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "079_inu_n4",
+            "090_lap_target"
+        ],
+        "name": "098_mrg_target",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "091_n4_correct"
+        ],
+        "name": "099_skullstrip_first_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "081_merge_fmap",
+            "064_ds_reference",
+            "092_ds_coeff"
+        ],
+        "name": "100_ds_fieldmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "086_merge_fmap",
+            "067_ds_reference",
+            "095_ds_coeff"
+        ],
+        "name": "101_ds_fieldmap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "097_init_aff",
+            "028_mrg_tmpl",
+            "098_mrg_target"
+        ],
+        "name": "102_norm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "099_skullstrip_first_pass"
+        ],
+        "name": "103_first_dilate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "102_norm",
+            "057_anat_validate"
+        ],
+        "name": "104_map_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "102_norm",
+            "003_full_wm",
+            "057_anat_validate"
+        ],
+        "name": "105_map_wmmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "099_skullstrip_first_pass",
+            "103_first_dilate"
+        ],
+        "name": "106_first_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "104_map_brainmask"
+        ],
+        "name": "107_thr_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "105_map_wmmask",
+            "057_anat_validate"
+        ],
+        "name": "108_inu_n4_final",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "106_first_mask"
+        ],
+        "name": "109_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "107_thr_brainmask"
+        ],
+        "name": "110_dil_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "107_thr_brainmask"
+        ],
+        "name": "111_03_pad_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "108_inu_n4_final",
+            "107_thr_brainmask"
+        ],
+        "name": "112_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "109_unifize",
+            "046_gen_avg"
+        ],
+        "name": "113_fixhdr_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "110_dil_brainmask"
+        ],
+        "name": "114_get_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "113_fixhdr_unifize"
+        ],
+        "name": "115_skullstrip_second_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "114_get_brainmask",
+            "108_inu_n4_final"
+        ],
+        "name": "116_01_atropos",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "115_skullstrip_second_pass",
+            "046_gen_avg"
+        ],
+        "name": "117_fixhdr_skullstrip2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "116_01_atropos"
+        ],
+        "name": "118_02_pad_segm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "116_01_atropos",
+            "105_map_wmmask"
+        ],
+        "name": "119_match_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "117_fixhdr_skullstrip2",
+            "099_skullstrip_first_pass"
+        ],
+        "name": "120_combine_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "118_02_pad_segm"
+        ],
+        "name": "121_04_sel_labels",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "116_01_atropos",
+            "119_match_wm"
+        ],
+        "name": "122_overlap",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "113_fixhdr_unifize",
+            "120_combine_masks"
+        ],
+        "name": "123_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "091_n4_correct",
+            "094_output_select",
+            "120_combine_masks"
+        ],
+        "name": "124_coregister",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "121_04_sel_labels"
+        ],
+        "name": "125_05_get_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "121_04_sel_labels"
+        ],
+        "name": "126_06_get_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "121_04_sel_labels"
+        ],
+        "name": "127_10_me_csf",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "121_04_sel_labels"
+        ],
+        "name": "128_27_depad_csf",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "116_01_atropos",
+            "122_overlap"
+        ],
+        "name": "129_sel_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "124_coregister",
+            "094_output_select"
+        ],
+        "name": "130_map_coeff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "125_05_get_wm"
+        ],
+        "name": "131_09_relabel_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "126_06_get_gm"
+        ],
+        "name": "132_07_fill_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "129_sel_wm",
+            "057_anat_validate"
+        ],
+        "name": "133_copy_xform_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "069_rotime",
+            "058_bold_split",
+            "130_map_coeff",
+            "060_fsl2itk"
+        ],
+        "name": "134_resample",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "069_rotime",
+            "130_map_coeff",
+            "091_n4_correct"
+        ],
+        "name": "135_resample_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "131_09_relabel_wm"
+        ],
+        "name": "136_26_depad_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "126_06_get_gm",
+            "132_07_fill_gm"
+        ],
+        "name": "137_08_mult_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "133_copy_xform_wm",
+            "107_thr_brainmask",
+            "105_map_wmmask"
+        ],
+        "name": "138_apply_wm_prior",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "134_resample"
+        ],
+        "name": "139_merge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "137_08_mult_gm",
+            "127_10_me_csf"
+        ],
+        "name": "140_11_add_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "138_apply_wm_prior",
+            "057_anat_validate"
+        ],
+        "name": "141_inu_n4_final",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_merge"
+        ],
+        "name": "142_average",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_merge"
+        ],
+        "name": "143_val_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_merge"
+        ],
+        "name": "144_get_dummy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "140_11_add_gm"
+        ],
+        "name": "145_12_relabel_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "142_average"
+        ],
+        "name": "146_clipper_pre",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "144_get_dummy",
+            "031_calc_dummy_scans"
+        ],
+        "name": "147_calc_dummy_scans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "143_val_bold",
+            "144_get_dummy"
+        ],
+        "name": "148_gen_avg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "131_09_relabel_wm",
+            "145_12_relabel_gm"
+        ],
+        "name": "149_13_add_gm_wm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "145_12_relabel_gm"
+        ],
+        "name": "150_25_depad_gm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "146_clipper_pre"
+        ],
+        "name": "151_n4",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "148_gen_avg"
+        ],
+        "name": "152_init_aff",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "149_13_add_gm_wm"
+        ],
+        "name": "153_14_sel_labels2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "149_13_add_gm_wm"
+        ],
+        "name": "154_24_depad_segm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "136_26_depad_wm",
+            "150_25_depad_gm",
+            "128_27_depad_csf"
+        ],
+        "name": "155_merge_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "151_n4"
+        ],
+        "name": "156_clipper_post",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "152_init_aff",
+            "148_gen_avg"
+        ],
+        "name": "157_norm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "153_14_sel_labels2"
+        ],
+        "name": "158_15_add_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "156_clipper_post"
+        ],
+        "name": "159_masker",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "157_norm",
+            "148_gen_avg"
+        ],
+        "name": "160_map_brainmask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "158_15_add_7"
+        ],
+        "name": "161_16_me_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "160_map_brainmask",
+            "148_gen_avg"
+        ],
+        "name": "162_check_hdr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "161_16_me_7"
+        ],
+        "name": "163_17_comp_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "162_check_hdr",
+            "148_gen_avg"
+        ],
+        "name": "164_n4_correct",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "163_17_comp_7"
+        ],
+        "name": "165_18_md_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "164_n4_correct"
+        ],
+        "name": "166_skullstrip_first_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "164_n4_correct"
+        ],
+        "name": "167_ds_bold_native_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "165_18_md_7"
+        ],
+        "name": "168_19_fill_7",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "166_skullstrip_first_pass"
+        ],
+        "name": "169_first_dilate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "111_03_pad_mask",
+            "168_19_fill_7"
+        ],
+        "name": "170_20_add_7_2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "166_skullstrip_first_pass",
+            "169_first_dilate"
+        ],
+        "name": "171_first_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "170_20_add_7_2"
+        ],
+        "name": "172_21_md_7_2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "171_first_mask"
+        ],
+        "name": "173_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "172_21_md_7_2"
+        ],
+        "name": "174_22_me_7_2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "173_unifize",
+            "148_gen_avg"
+        ],
+        "name": "175_fixhdr_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "174_22_me_7_2"
+        ],
+        "name": "176_23_depad_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "175_fixhdr_unifize"
+        ],
+        "name": "177_skullstrip_second_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "176_23_depad_mask",
+            "057_anat_validate"
+        ],
+        "name": "178_msk_conform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "177_skullstrip_second_pass",
+            "148_gen_avg"
+        ],
+        "name": "179_fixhdr_skullstrip2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "141_inu_n4_final",
+            "178_msk_conform",
+            "154_24_depad_segm",
+            "155_merge_tpms",
+            "057_anat_validate"
+        ],
+        "name": "180_copy_xform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "179_fixhdr_skullstrip2",
+            "166_skullstrip_first_pass"
+        ],
+        "name": "181_combine_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_copy_xform"
+        ],
+        "name": "182_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions",
+            "180_copy_xform"
+        ],
+        "name": "183_ds_t1w_preproc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_copy_xform"
+        ],
+        "name": "184_mask_t1w",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "044_raw_sources",
+            "026_anat_ref_dimensions",
+            "180_copy_xform"
+        ],
+        "name": "185_ds_t1w_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_copy_xform"
+        ],
+        "name": "186_t1w_brain",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource",
+            "040_select_tpl",
+            "180_copy_xform"
+        ],
+        "name": "187_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_copy_xform"
+        ],
+        "name": "188_trunc_mov",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_copy_xform"
+        ],
+        "name": "189_trunc_mov",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "175_fixhdr_unifize",
+            "181_combine_masks"
+        ],
+        "name": "190_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "091_n4_correct",
+            "164_n4_correct",
+            "181_combine_masks"
+        ],
+        "name": "191_sdc_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_merge",
+            "181_combine_masks"
+        ],
+        "name": "192_dvars",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_merge",
+            "181_combine_masks",
+            "031_calc_dummy_scans"
+        ],
+        "name": "193_tcompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "182_apply_mask"
+        ],
+        "name": "194_t1w_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "164_n4_correct",
+            "186_t1w_brain"
+        ],
+        "name": "195_mri_coreg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "164_n4_correct",
+            "186_t1w_brain",
+            "180_copy_xform"
+        ],
+        "name": "196_gen_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "015_split_desc",
+            "188_trunc_mov",
+            "180_copy_xform",
+            "000_bidssrc"
+        ],
+        "name": "197_registration",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "017_split_desc",
+            "189_trunc_mov",
+            "180_copy_xform",
+            "000_bidssrc"
+        ],
+        "name": "198_registration",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "191_sdc_report"
+        ],
+        "name": "199_ds_report_sdc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "192_dvars"
+        ],
+        "name": "200_add_dvars_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "192_dvars"
+        ],
+        "name": "201_add_std_dvars_header",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "193_tcompcor"
+        ],
+        "name": "202_tcc_metadata_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "194_t1w_dseg"
+        ],
+        "name": "203_lut_t1w_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "194_t1w_dseg"
+        ],
+        "name": "204_fast2bids",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "195_mri_coreg"
+        ],
+        "name": "205_lta_to_fsl",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "197_registration",
+            "037_tf_select",
+            "180_copy_xform"
+        ],
+        "name": "206_tpl_moving",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "197_registration",
+            "037_tf_select",
+            "180_copy_xform"
+        ],
+        "name": "207_std_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_registration",
+            "038_tf_select",
+            "180_copy_xform"
+        ],
+        "name": "208_tpl_moving",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_registration",
+            "038_tf_select",
+            "180_copy_xform"
+        ],
+        "name": "209_std_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "202_tcc_metadata_filter"
+        ],
+        "name": "210_tcc_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "180_copy_xform",
+            "203_lut_t1w_dseg"
+        ],
+        "name": "211_seg_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions",
+            "203_lut_t1w_dseg"
+        ],
+        "name": "212_ds_t1w_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "203_lut_t1w_dseg"
+        ],
+        "name": "213_wm_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "197_registration",
+            "037_tf_select",
+            "203_lut_t1w_dseg"
+        ],
+        "name": "214_std_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_registration",
+            "038_tf_select",
+            "203_lut_t1w_dseg"
+        ],
+        "name": "215_std_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions",
+            "204_fast2bids"
+        ],
+        "name": "216_ds_t1w_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "139_merge",
+            "204_fast2bids"
+        ],
+        "name": "217_acc_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "197_registration",
+            "037_tf_select",
+            "204_fast2bids"
+        ],
+        "name": "218_std_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "198_registration",
+            "038_tf_select",
+            "204_fast2bids"
+        ],
+        "name": "219_std_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "206_tpl_moving",
+            "016_tf_select",
+            "207_std_mask"
+        ],
+        "name": "220_norm_msk",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "208_tpl_moving",
+            "018_tf_select",
+            "209_std_mask"
+        ],
+        "name": "221_norm_msk",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "211_seg_rpt",
+            "000_bidssrc"
+        ],
+        "name": "222_ds_t1w_dseg_mask_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "205_lta_to_fsl",
+            "213_wm_mask",
+            "164_n4_correct",
+            "186_t1w_brain"
+        ],
+        "name": "223_flt_bbr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "218_std_tpms",
+            "219_std_tpms",
+            "197_registration",
+            "198_registration",
+            "015_split_desc",
+            "017_split_desc",
+            "206_tpl_moving",
+            "208_tpl_moving",
+            "214_std_dseg",
+            "215_std_dseg",
+            "207_std_mask",
+            "209_std_mask"
+        ],
+        "name": "224_outputnode",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "220_norm_msk"
+        ],
+        "name": "225_norm_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "221_norm_msk"
+        ],
+        "name": "226_norm_rpt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "205_lta_to_fsl",
+            "223_flt_bbr"
+        ],
+        "name": "227_transforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "195_mri_coreg",
+            "223_flt_bbr"
+        ],
+        "name": "228_reports",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions",
+            "224_outputnode"
+        ],
+        "name": "229_ds_t1w2std_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "026_anat_ref_dimensions",
+            "224_outputnode"
+        ],
+        "name": "230_ds_std2t1w_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "224_outputnode"
+        ],
+        "name": "231_carpetplot_select_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "020_split_target",
+            "224_outputnode"
+        ],
+        "name": "232_select_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "022_split_target",
+            "224_outputnode"
+        ],
+        "name": "233_select_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "039_gen_tplid",
+            "224_outputnode"
+        ],
+        "name": "234_select_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "225_norm_rpt",
+            "000_bidssrc"
+        ],
+        "name": "235_ds_std_t1w_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "226_norm_rpt",
+            "000_bidssrc"
+        ],
+        "name": "236_ds_std_t1w_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "227_transforms",
+            "164_n4_correct",
+            "186_t1w_brain"
+        ],
+        "name": "237_fsl_to_lta",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "187_gen_ref",
+            "234_select_xfm",
+            "184_mask_t1w"
+        ],
+        "name": "238_anat2std_t1w",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "187_gen_ref",
+            "234_select_xfm",
+            "180_copy_xform"
+        ],
+        "name": "239_anat2std_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "187_gen_ref",
+            "234_select_xfm",
+            "203_lut_t1w_dseg"
+        ],
+        "name": "240_anat2std_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "187_gen_ref",
+            "234_select_xfm",
+            "204_fast2bids"
+        ],
+        "name": "241_anat2std_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "237_fsl_to_lta"
+        ],
+        "name": "242_compare_transforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource",
+            "238_anat2std_t1w",
+            "026_anat_ref_dimensions"
+        ],
+        "name": "243_ds_std_t1w",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource",
+            "040_select_tpl",
+            "239_anat2std_mask",
+            "026_anat_ref_dimensions"
+        ],
+        "name": "244_ds_std_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource",
+            "240_anat2std_dseg",
+            "026_anat_ref_dimensions"
+        ],
+        "name": "245_ds_std_dseg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "024_spacesource",
+            "241_anat2std_tpms",
+            "026_anat_ref_dimensions"
+        ],
+        "name": "246_ds_std_tpms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "227_transforms",
+            "242_compare_transforms"
+        ],
+        "name": "247_select_transform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "242_compare_transforms",
+            "228_reports"
+        ],
+        "name": "248_select_report",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "247_select_transform"
+        ],
+        "name": "249_invt_bbr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "247_select_transform",
+            "164_n4_correct",
+            "186_t1w_brain"
+        ],
+        "name": "250_fsl2itk_fwd",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "242_compare_transforms",
+            "248_select_report"
+        ],
+        "name": "251_ds_report_reg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "249_invt_bbr",
+            "164_n4_correct",
+            "186_t1w_brain"
+        ],
+        "name": "252_fsl2itk_inv",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "196_gen_ref",
+            "181_combine_masks",
+            "250_fsl2itk_fwd"
+        ],
+        "name": "253_mask_t1w_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "250_fsl2itk_fwd",
+            "060_fsl2itk",
+            "135_resample_ref"
+        ],
+        "name": "254_merge_xforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "250_fsl2itk_fwd"
+        ],
+        "name": "255_ds_ref_t1w_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "232_select_std",
+            "250_fsl2itk_fwd"
+        ],
+        "name": "256_mask_merge_tfms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "232_select_std",
+            "060_fsl2itk",
+            "135_resample_ref",
+            "250_fsl2itk_fwd"
+        ],
+        "name": "257_merge_xforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "233_select_std",
+            "250_fsl2itk_fwd"
+        ],
+        "name": "258_mask_merge_tfms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "233_select_std",
+            "060_fsl2itk",
+            "135_resample_ref",
+            "250_fsl2itk_fwd"
+        ],
+        "name": "259_merge_xforms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "181_combine_masks",
+            "180_copy_xform",
+            "252_fsl2itk_inv"
+        ],
+        "name": "260_t1w_mask_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "217_acc_masks",
+            "181_combine_masks",
+            "252_fsl2itk_inv"
+        ],
+        "name": "261_acc_msk_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "252_fsl2itk_inv",
+            "231_carpetplot_select_std"
+        ],
+        "name": "262_mrg_xfms",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "252_fsl2itk_inv"
+        ],
+        "name": "263_ds_t1w_tpl_inv_xfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "196_gen_ref",
+            "254_merge_xforms",
+            "058_bold_split"
+        ],
+        "name": "264_bold_to_t1w_transform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "256_mask_merge_tfms",
+            "070_gen_ref",
+            "181_combine_masks"
+        ],
+        "name": "265_mask_std_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "070_gen_ref",
+            "257_merge_xforms",
+            "058_bold_split"
+        ],
+        "name": "266_bold_to_std_transform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "258_mask_merge_tfms",
+            "071_gen_ref",
+            "181_combine_masks"
+        ],
+        "name": "267_mask_std_tfm",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "071_gen_ref",
+            "259_merge_xforms",
+            "058_bold_split"
+        ],
+        "name": "268_bold_to_std_transform",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "260_t1w_mask_tfm",
+            "181_combine_masks"
+        ],
+        "name": "269_union_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "261_acc_msk_tfm",
+            "181_combine_masks"
+        ],
+        "name": "270_acc_msk_brain",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "262_mrg_xfms",
+            "181_combine_masks"
+        ],
+        "name": "271_resample_parc",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "264_bold_to_t1w_transform"
+        ],
+        "name": "272_threshold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "266_bold_to_std_transform"
+        ],
+        "name": "273_threshold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "268_bold_to_std_transform"
+        ],
+        "name": "274_threshold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "269_union_mask"
+        ],
+        "name": "275_dilated_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "270_acc_msk_brain"
+        ],
+        "name": "276_acc_msk_bin",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "272_threshold"
+        ],
+        "name": "277_merge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "273_threshold"
+        ],
+        "name": "278_merge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "274_threshold"
+        ],
+        "name": "279_merge",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "269_union_mask",
+            "275_dilated_mask"
+        ],
+        "name": "280_subtract_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "276_acc_msk_bin",
+            "139_merge",
+            "031_calc_dummy_scans"
+        ],
+        "name": "281_acompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "276_acc_msk_bin",
+            "193_tcompcor",
+            "181_combine_masks"
+        ],
+        "name": "282_merge_rois",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "277_merge"
+        ],
+        "name": "283_val_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "277_merge"
+        ],
+        "name": "284_get_dummy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "278_merge"
+        ],
+        "name": "285_val_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "278_merge"
+        ],
+        "name": "286_get_dummy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "279_merge"
+        ],
+        "name": "287_val_bold",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "279_merge"
+        ],
+        "name": "288_get_dummy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "280_subtract_mask",
+            "139_merge",
+            "031_calc_dummy_scans"
+        ],
+        "name": "289_crowncompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "280_subtract_mask",
+            "276_acc_msk_bin",
+            "193_tcompcor"
+        ],
+        "name": "290_mrg_compcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "271_resample_parc",
+            "280_subtract_mask",
+            "276_acc_msk_bin"
+        ],
+        "name": "291_parcels",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "281_acompcor"
+        ],
+        "name": "292_rename_acompcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "282_merge_rois",
+            "139_merge"
+        ],
+        "name": "293_signals",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "284_get_dummy"
+        ],
+        "name": "294_calc_dummy_scans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "283_val_bold",
+            "284_get_dummy"
+        ],
+        "name": "295_gen_avg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "286_get_dummy"
+        ],
+        "name": "296_calc_dummy_scans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "285_val_bold",
+            "286_get_dummy"
+        ],
+        "name": "297_gen_avg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "288_get_dummy"
+        ],
+        "name": "298_calc_dummy_scans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "287_val_bold",
+            "288_get_dummy"
+        ],
+        "name": "299_gen_avg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "289_crowncompcor"
+        ],
+        "name": "300_crowncc_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "281_acompcor",
+            "289_crowncompcor",
+            "193_tcompcor"
+        ],
+        "name": "301_merge_compcor_metadata",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "290_mrg_compcor",
+            "139_merge",
+            "181_combine_masks"
+        ],
+        "name": "302_rois_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "292_rename_acompcor"
+        ],
+        "name": "303_acc_metadata_filter",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "074_fdisp",
+            "292_rename_acompcor",
+            "289_crowncompcor",
+            "193_tcompcor",
+            "293_signals",
+            "075_add_motion_headers",
+            "062_add_rmsd_header",
+            "200_add_dvars_header",
+            "201_add_std_dvars_header"
+        ],
+        "name": "304_concat",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "253_mask_t1w_tfm",
+            "295_gen_avg"
+        ],
+        "name": "305_n4_correct",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "297_gen_avg",
+            "265_mask_std_tfm"
+        ],
+        "name": "306_n4_correct",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "299_gen_avg",
+            "267_mask_std_tfm"
+        ],
+        "name": "307_n4_correct",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "301_merge_compcor_metadata"
+        ],
+        "name": "308_compcor_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "302_rois_plot"
+        ],
+        "name": "309_ds_report_bold_rois",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "303_acc_metadata_filter"
+        ],
+        "name": "310_acc_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "304_concat"
+        ],
+        "name": "311_model_expansion",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "304_concat"
+        ],
+        "name": "312_conf_corr_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "305_n4_correct"
+        ],
+        "name": "313_skullstrip_first_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "306_n4_correct"
+        ],
+        "name": "314_skullstrip_first_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "307_n4_correct"
+        ],
+        "name": "315_skullstrip_first_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "306_n4_correct",
+            "307_n4_correct",
+            "232_select_std",
+            "233_select_std",
+            "265_mask_std_tfm",
+            "267_mask_std_tfm",
+            "278_merge",
+            "279_merge"
+        ],
+        "name": "316_outputnode",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "308_compcor_plot"
+        ],
+        "name": "317_ds_report_compcor",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "210_tcc_metadata_fmt",
+            "310_acc_metadata_fmt",
+            "300_crowncc_metadata_fmt"
+        ],
+        "name": "318_merge_confound_metadata",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "311_model_expansion"
+        ],
+        "name": "319_spike_regressors",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "312_conf_corr_plot"
+        ],
+        "name": "320_ds_report_conf_corr",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "313_skullstrip_first_pass"
+        ],
+        "name": "321_first_dilate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "314_skullstrip_first_pass"
+        ],
+        "name": "322_first_dilate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "315_skullstrip_first_pass"
+        ],
+        "name": "323_first_dilate",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "316_outputnode"
+        ],
+        "name": "324_select_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "023_spacesource",
+            "316_outputnode"
+        ],
+        "name": "325_select_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "318_merge_confound_metadata"
+        ],
+        "name": "326_merge_confound_metadata2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "291_parcels",
+            "139_merge",
+            "319_spike_regressors",
+            "031_calc_dummy_scans"
+        ],
+        "name": "327_conf_plot",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "313_skullstrip_first_pass",
+            "321_first_dilate"
+        ],
+        "name": "328_first_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "314_skullstrip_first_pass",
+            "322_first_dilate"
+        ],
+        "name": "329_first_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "315_skullstrip_first_pass",
+            "323_first_dilate"
+        ],
+        "name": "330_first_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "324_select_std",
+            "031_calc_dummy_scans"
+        ],
+        "name": "331_rm_nonsteady",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "325_select_std",
+            "023_spacesource"
+        ],
+        "name": "332_ds_bold_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "325_select_std",
+            "023_spacesource"
+        ],
+        "name": "333_ds_bold_std_ref",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "325_select_std",
+            "023_spacesource",
+            "005_raw_sources"
+        ],
+        "name": "334_ds_bold_mask_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "327_conf_plot"
+        ],
+        "name": "335_ds_report_bold_conf",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "328_first_mask"
+        ],
+        "name": "336_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "329_first_mask"
+        ],
+        "name": "337_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "330_first_mask"
+        ],
+        "name": "338_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "324_select_std",
+            "331_rm_nonsteady"
+        ],
+        "name": "339_calc_median_val",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "331_rm_nonsteady"
+        ],
+        "name": "340_calc_bold_mean",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "336_unifize",
+            "295_gen_avg"
+        ],
+        "name": "341_fixhdr_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "297_gen_avg",
+            "337_unifize"
+        ],
+        "name": "342_fixhdr_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "299_gen_avg",
+            "338_unifize"
+        ],
+        "name": "343_fixhdr_unifize",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "339_calc_median_val",
+            "340_calc_bold_mean"
+        ],
+        "name": "344_getusans",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "341_fixhdr_unifize"
+        ],
+        "name": "345_skullstrip_second_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "342_fixhdr_unifize"
+        ],
+        "name": "346_skullstrip_second_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "343_fixhdr_unifize"
+        ],
+        "name": "347_skullstrip_second_pass",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "331_rm_nonsteady",
+            "339_calc_median_val",
+            "344_getusans"
+        ],
+        "name": "348_smooth",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "345_skullstrip_second_pass",
+            "295_gen_avg"
+        ],
+        "name": "349_fixhdr_skullstrip2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "297_gen_avg",
+            "346_skullstrip_second_pass"
+        ],
+        "name": "350_fixhdr_skullstrip2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "299_gen_avg",
+            "347_skullstrip_second_pass"
+        ],
+        "name": "351_fixhdr_skullstrip2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "324_select_std",
+            "348_smooth"
+        ],
+        "name": "352_melodic",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "349_fixhdr_skullstrip2",
+            "313_skullstrip_first_pass"
+        ],
+        "name": "353_combine_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "350_fixhdr_skullstrip2",
+            "314_skullstrip_first_pass"
+        ],
+        "name": "354_combine_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "351_fixhdr_skullstrip2",
+            "315_skullstrip_first_pass"
+        ],
+        "name": "355_combine_masks",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "324_select_std",
+            "348_smooth",
+            "352_melodic",
+            "061_normalize_motion"
+        ],
+        "name": "356_ica_aroma",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "341_fixhdr_unifize",
+            "353_combine_masks"
+        ],
+        "name": "357_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "354_combine_masks",
+            "342_fixhdr_unifize"
+        ],
+        "name": "358_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "355_combine_masks",
+            "343_fixhdr_unifize"
+        ],
+        "name": "359_apply_mask",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "356_ica_aroma",
+            "031_calc_dummy_scans"
+        ],
+        "name": "360_ica_aroma_confound_extraction",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "324_select_std",
+            "356_ica_aroma",
+            "031_calc_dummy_scans"
+        ],
+        "name": "361_add_nonsteady",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "356_ica_aroma"
+        ],
+        "name": "362_ds_report_ica_aroma",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "360_ica_aroma_confound_extraction"
+        ],
+        "name": "363_ica_aroma_metadata_fmt",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "319_spike_regressors",
+            "360_ica_aroma_confound_extraction"
+        ],
+        "name": "364_aroma_confounds",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "360_ica_aroma_confound_extraction"
+        ],
+        "name": "365_ds_aroma_noise_ics",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "360_ica_aroma_confound_extraction"
+        ],
+        "name": "366_ds_melodic_mix",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "361_add_nonsteady"
+        ],
+        "name": "367_ds_aroma_std",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "326_merge_confound_metadata2",
+            "363_ica_aroma_metadata_fmt"
+        ],
+        "name": "368_merge_confound_metadata",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "094_output_select",
+            "007_get_dummy",
+            "242_compare_transforms",
+            "364_aroma_confounds"
+        ],
+        "name": "369_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "368_merge_confound_metadata"
+        ],
+        "name": "370_merge_confound_metadata2",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "369_summary"
+        ],
+        "name": "371_ds_report_summary",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "364_aroma_confounds",
+            "370_merge_confound_metadata2"
+        ],
+        "name": "372_ds_confounds",
+        "size": 1
+    },
+    {
+        "group": 2,
+        "imports": [],
+        "name": "373_bold_source",
+        "size": 1
+    }
+]
